@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎮 Interactive Playground 🎨</h1>
+    <p>Click the cat to meow! 🐱✨</p>
+    <img src="images/cat.png" alt="Cute Cat" id="cat" style="width:200px;">
+    <audio id="meow-sound" src="images/meow.mp3"></audio>
+    <script>
+      document.getElementById("cat").addEventListener("click", function() {
+        document.getElementById("meow-sound").play();
+      });
+    </script>
+    <a href="index.html">⬅ Back</a>
+  </header>
+</body>
+</html>

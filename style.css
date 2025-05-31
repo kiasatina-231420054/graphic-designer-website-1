@@ -1,0 +1,36 @@
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #ffeef8;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+header {
+  background-color: #e0f7fa;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #f8bbd0;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  background-color: #f48fb1;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
